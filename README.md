@@ -1,0 +1,1 @@
+I created this website as part of a control in NSI (Numerical Science and Computer Science). For this project, I decided to talk about cybersecurity, because it is a subject that interests me and that represents me well.
