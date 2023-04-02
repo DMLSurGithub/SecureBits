@@ -35,10 +35,10 @@ nav {
   font-family: 'Space Grotesk', sans-serif;
   font-size: 16px;
 }
-nav a.active:not([href="#"]) img:not([src="icons/icon.png"]) {
+nav a.active:not([href="#"]) img:not([src="../img/icons/icon.png"]) {
   filter: invert(50%) sepia(75%) saturate(7500%) hue-rotate(235deg) brightness(90%) contrast(80%);
 }
-nav a:hover:not(.active) img:not([src="icons/icon.png"]) {
+nav a:hover:not(.active) img:not([src="../img/icons/icon.png"]) {
   filter: invert(50%) sepia(75%) saturate(7500%) hue-rotate(235deg) brightness(90%) contrast(80%);
 }
 ul {
@@ -100,7 +100,7 @@ footer {
   background-color: #040406;
   display: inline-block;
   margin-right: 10px;
-  background-image: url("../icons/icon.png");
+  background-image: url("../img/icons/icon.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -356,14 +356,16 @@ section {
   display: flex;
   justify-content: center;
 }
-h1 {
+.h1-comparaison {
   text-align: center;
-  font-size: 2.5rem;
-  margin-top: 2rem;
+  margin-top: 20px;
+	margin-bottom: 10px;
+  font-size: 34px;
+  color: #724bf2;
 }
 .box1 {
   width: 550px;
-  height: 250px;
+  height: 270px;
   margin: 17px;
   padding: 20px;
   border-radius: 10px;
@@ -375,7 +377,7 @@ h1 {
 }
 .box2 {
   width: 550px;
-  height: 250px;
+  height: 270px;
   margin: 17px;
   padding: 20px;
   border-radius: 10px;
@@ -387,7 +389,7 @@ h1 {
 }
 .box3 {
   width: 1200px;
-  height: 300px;
+  height:350px;
   margin: 17px 17px 40px 17px;
   padding: 20px;
   border-radius: 10px;
@@ -399,16 +401,16 @@ h1 {
 }
 .h2-comparaison {
   font-size: 2rem;
-  margin-top: 1rem;
   color: #5236cf;
+  margin-bottom: 10px;
 }
 .h3-comparaison {
   font-size: 2rem;
-  margin-top: 1rem;
   color: #85ad50;
+  margin-bottom: 10px;
 }
 .h4-comparaison {
   font-size: 2rem;
-  margin-top: 1rem;
   color: #ba3f54;
+  margin-bottom: 10px;
 }
